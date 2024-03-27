@@ -1,0 +1,17 @@
+
+Inicializar um Projeto Node
+npm init --yes
+
+Instalar o Cypress
+    npm install -D cypress
+Se quiser uma versao especifica
+    npm install -D cypress@10.0.0
+
+Abrir o Cypress modo interativo
+    npx cypress open
+    
+Abrir o Cypress em modo de teste (sem a interface gráfica) headless
+    npx cypress run
+
+Para correr numa resolução de mobile
+    npx cypress run --config viewportHeight=1000,viewportWidth=600
